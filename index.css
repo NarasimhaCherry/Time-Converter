@@ -4,17 +4,37 @@
     background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/time-converter-bg.png");
     background-size: cover;
     height: 100vh;
+    width: 100vw;
 }
 
-.main-heading {
+.heading {
     color: #ffffff;
     text-align: center;
     font-family: "Open Sans";
 }
 
-.paragraph {
+.description {
     color: #ffffff;
     text-align: center;
     font-family: "Open Sans";
     font-size: 16px;
+}
+
+.div>input {
+    border-radius: 5px;
+    width: 70vw;
+}
+
+.hours-heading {
+    color: #ffffff;
+}
+
+.minutes-heading {
+    color: #ffffff;
+}
+
+.button {
+    color: gray;
+    border-radius: 7px;
+    width: 40vh;
 }
